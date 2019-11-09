@@ -10,3 +10,5 @@ pip install django-filter
 
 # Requirement
 Python 3.7
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/tadasi12/todoApp)
