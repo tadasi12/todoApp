@@ -12,5 +12,7 @@ pip install django-filter
 Python 3.7
 
 https://img.shields.io/pypi/pyversions/django
+
 https://img.shields.io/pypi/djversions/django-filter
+
 https://img.shields.io/pypi/djversions/djangorestframework
