@@ -10,9 +10,7 @@ pip install django-filter
 
 # Requirement
 Python 3.7
-
-https://img.shields.io/pypi/pyversions/django
-
-https://img.shields.io/pypi/djversions/django-filter
-
-https://img.shields.io/pypi/djversions/djangorestframework
+Django
+Django-filter
+Django REST framework 
+Django REST framework-jwt
