@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+    <div class="container">
+    <a class="navbar-brand" href="#">ToDo</a>
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"><a class="nav-item nav-link" routerLink="/">一覧</a></li>
+        <li class="nav-item"><a class="nav-item nav-link" routerLink="/add">登録</a></li>
+    </ul>
+    <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-item nav-link" (click)="logout()">ログアウト</a></li>
+    </ul>
+    </div>  
+</nav>
+<div class="page-header pt-sm-3"><h2>Todo一覧</h2></div>
+<div *ngIf="tododata != null && tododata.length == 0">
+    <div class="alert alert-info" role="alert">Todoがありません。</div>
+</div>
+<ul class="list-group" *ngFor="let todo of tododata">
+    <li class="list-group-item list-group-item-action">
+        <label class="col-sm-2"><a routerLink="/todo-data/{{todo.id}}">{{todo.title}}</a></label>
+        <button class="delete" class="btn btn-danger" title="delete hero" (click)="delete(todo)">x</button>
+    </li>
+</ul>
