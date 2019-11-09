@@ -140,3 +140,5 @@ REST_FRAMEWORK = {
     'NON_FIELD_ERRORS_KEY': 'detail',
     'TEST_REQUEST_DEFAULT_FORMAT': 'json'
 }
+STATIC_DIR = os.path.join(BASE_DIR, "static")
+STATIC_ROOT = STATIC_DIR     
