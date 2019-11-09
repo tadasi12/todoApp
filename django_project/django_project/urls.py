@@ -21,6 +21,7 @@ from rest_framework_jwt.views import obtain_jwt_token
 from todo_app.urls import router as todo_app_router # 追記
 
 urlpatterns = [
+    path('', include('todo_app.urls')), 
     path('admin/', admin.site.urls),
     url(r'^api/', include(todo_app_router.urls)), # 追記
     url(r'^login/', obtain_jwt_token),
