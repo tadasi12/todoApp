@@ -3,3 +3,7 @@ from .views import TodoViewSet
 
 router = routers.DefaultRouter()
 router.register(r'todo', TodoViewSet)
+
+urlpatterns = [
+    path('', views.index, name='index'),                                                                                                        
+]
