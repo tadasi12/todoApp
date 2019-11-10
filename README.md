@@ -26,13 +26,13 @@
 
 for Django:
 
-pip install django
+``pip install django``
 
-pip install djangorestframework
+``pip install djangorestframework``
 
-pip install djangorestframework-jwt
+``pip install djangorestframework-jwt``
 
-pip install django-filter
+``pip install django-filter``
 
 for Angular:
 
