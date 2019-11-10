@@ -2,7 +2,7 @@
 
  
 
-# Requirement
+## Requirement
 
 - Python 3.5 or higer
 
@@ -24,7 +24,7 @@
 
 - bootstrap 4.3.1
 
-# Installation
+## Installation
 
 pip install django
 
