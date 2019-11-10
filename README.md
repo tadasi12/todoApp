@@ -24,7 +24,7 @@
 
 ## Installation
 
-Django:
+for Django:
 
 pip install django
 
@@ -34,7 +34,8 @@ pip install djangorestframework-jwt
 
 pip install django-filter
 
-Angular:
+for Angular:
 
 ``cd todo-app``
+
 ``npm install``
