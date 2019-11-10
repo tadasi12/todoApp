@@ -66,21 +66,22 @@ This will create dist folder with everything you need for deploying the client s
  <head>
    <meta charset="utf-8">
    <title>TodoApp</title>
-     <base href="/">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-    <link rel="stylesheet" href="{% static 'styles.26f6d2f8dab9d59d02a1.css' %}">
+    <link rel="stylesheet" href="{% static 'styles.26f6d2f8dab9d59d02a1.css' %}"><!-- change target -->
  </head>
  <body>
    <div class="container">
      <app-root></app-root>
    </div>
-  <script src="{% static 'runtime-es2015.e8a2810b3b08d6a1b6aa.js' %}" type="module"></script>
-  <script src="{% static 'runtime-es5.e8a2810b3b08d6a1b6aa.js' %}" nomodule defer></script>
-  <script src="{% static 'polyfills-es5.931f63c2feef40f602a6.js' %}" nomodule defer></script>
-  <script src="{% static 'polyfills-es2015.0ef207fb7b4761464817.js' %}" type="module"></script>
-  <script src="{% static 'main-es2015.0f9da48b68808fcac0da.js' %}" type="module"></script>
-  <script src="{% static 'main-es5.0f9da48b68808fcac0da.js' %}" nomodule defer></script>
+  <script src="{% static 'runtime-es2015.e8a2810b3b08d6a1b6aa.js' %}" type="module"></script><!-- change target -->
+  <script src="{% static 'runtime-es5.e8a2810b3b08d6a1b6aa.js' %}" nomodule defer></script><!-- change target -->
+  <script src="{% static 'polyfills-es5.931f63c2feef40f602a6.js' %}" nomodule defer></script><!-- change target -->
+  <script src="{% static 'polyfills-es2015.0ef207fb7b4761464817.js' %}" type="module"></script><!-- change target -->
+  <script src="{% static 'main-es2015.0f9da48b68808fcac0da.js' %}" type="module"></script><!-- change target -->
+  <script src="{% static 'main-es5.0f9da48b68808fcac0da.js' %}" nomodule defer></script><!-- change target -->
  </body>                                                   
-</html>```
+</html>
+```
