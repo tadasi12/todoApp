@@ -1,7 +1,5 @@
 # todoApp
 
- 
-
 ## Requirement
 
 - Python 3.5 or higer
@@ -26,6 +24,8 @@
 
 ## Installation
 
+Django:
+
 pip install django
 
 pip install djangorestframework
@@ -34,4 +34,7 @@ pip install djangorestframework-jwt
 
 pip install django-filter
 
-npm install
+Angular:
+
+``cd todo-app``
+``npm install``
