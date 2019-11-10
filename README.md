@@ -28,11 +28,6 @@ for Angular:
 
 ## build
 
-
-    Build the project
-
-# ng build
-
 1. angular app 
 	
 ``ng build --prod``
